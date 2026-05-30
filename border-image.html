@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p {
+            width: 200px;
+            height: 50px;
+            margin: 20;
+            border: 11px solid transparent;
+        }
+        p.one { 
+          border-image: url("satu.jpeg")
+          11 stretch;
+        }  
+          
+        p.two {
+             border-image: url("dua.jpeg")
+             11 round;
+             
+        }  
+
+        p.three {
+             border-image: url("tiga.jpeg")
+          11 repeat;
+        }  
+    </style>
+</head>
+<body>
+    <p class="one"></p>
+    <p class="two"></p>
+    <p class="three"></p>
+</body>
+</html>

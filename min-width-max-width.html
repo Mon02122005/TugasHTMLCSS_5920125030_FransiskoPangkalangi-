@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Tabel Instrumen Musik</title>
+    <style>
+       
+table {
+    border-collapse: collapse;
+    width: auto;
+    font-family: Arial, sans-serif;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    vertical-align: top;
+}
+
+th {
+    background-color: #f2f2f2;
+    text-align: left;
+    padding: 8px;
+    color: rgb(132, 180, 243);
+}
+
+td.description {
+    min-width: 450px;
+    max-width: 650px;
+    text-align: left;
+    padding: 5px;
+    margin: 0px; 
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+
+td img {
+    display: block;
+    margin: 5px auto;
+}
+
+
+td:last-child {
+    padding: 10px;
+    font-weight: bold;
+}
+    </style>
+</head>
+<body>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Photo</th>
+                <th>Description</th>
+                <th>Price</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Baris 1: Rhodes Piano -->
+            <tr>
+                <td><img src="satu.jpeg" alt="Rhodes Piano" width="150"></td>
+                <td class="description">
+                    The Rhodes piano is an electro-mechanical piano, invented by Harold Rhodes during the fifties and later manufactured in a number of models, first in collaboration with Fender and after 1965 by CBS. It employs a piano-like keyboard with hammers that hit small metal tines, amplified by electromagnetic pickups.
+                </td>
+                <td>$1400</td>
+            </tr>
+            <!-- Baris 2: Wurlitzer -->
+            <tr>
+                <td><img src="dua.jpeg" alt="Wurlitzer" width="150"></td>
+                <td class="description">
+                    The Wurlitzer electric piano is an electro-mechanical piano, created by the Rudolph Wurlitzer Company of Mississippi. The Wurlitzer company itself never called the instrument an "electric piano", instead inventing the phrase "Electronic Piano" and using this as a trademark throughout the production of the instrument. It employs a piano-like keyboard with hammers that hit small metal tines, amplified by electromagnetic pickups.
+                </td>
+                <td>$1600</td>
+            </tr>
+            <!-- Baris 3: Clavinet -->
+            <tr>
+                <td><img src="tiga.jpeg" alt="Clavinet" width="150"></td>
+                <td class="description">
+                    A Clavinet is an electronically amplified clavichord manufactured by the Hohner company. Each key uses a rubber tip to perform a hammer on a string. Its distinctive bright staccato sound is often compared to that of an electric guitar. Various models were produced over the years, including the models I, II, L, C, D6, and E7.
+                </td>
+                <td>$1200</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>

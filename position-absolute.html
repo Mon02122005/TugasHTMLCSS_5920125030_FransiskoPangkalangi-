@@ -1,0 +1,103 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .browser-window {
+  width: 600px;
+  height: 400px;
+  border: 1px solid #666363;
+  position: relative;
+  font-family: sans-serif;
+  background: #675f5f;
+}
+
+/* Header & Lampu (Absolute) */
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 40px;
+  background: #f1f1f1;
+  border-bottom: 1px solid #ccc;
+  display: flex;
+  align-items: center;
+  padding: 0 15px;
+  z-index: 10;
+}
+
+.traffic-lights span {
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.red { background: #ff5f56; }
+.yellow { background: #ffbd2e; }
+.green { background: #27c93f; }
+
+.header-title {
+  margin: 200px;
+  font-size: 12px;
+  color: #060606;
+}
+
+/* Layout Konten */
+.content-wrapper {
+  margin-top: 50px; /* Jarak dari header */
+  display: flex; /* Membuat H1 di samping teks */
+  padding: 20px;
+
+}
+
+.side-title {
+  flex: 1;
+  font-size: 24px;
+  padding-right: 20px;
+  border-right: 2px solid #eee;
+}
+
+/* Area Scroll */
+.scroll-box {
+  flex: 2;
+  height: 300px;
+  overflow-y: scroll; /* Mengaktifkan geser atas-bawah */
+  padding-left: 20px;
+  font-size: 14px;
+  line-height: 1.6;
+}
+    </style>
+</head>
+<body>
+    <div class="browser-window">
+  <!-- Header dengan Lampu & Judul -->
+  <div class="header">
+    <div class="traffic-lights">
+      <span class="red"></span>
+      <span class="yellow"></span>
+      <span class="green"></span>
+    </div>
+    <div class="header-title">Absolute Positioning</div>
+  </div>
+
+  <!-- Konten Utama -->
+  <div class="content-wrapper">
+    <h1 class="side-title">The Evolution <br> of the Bicycle</h1>
+    
+    <div class="scroll-box">
+      <p>Would help him get around the royal gardens faster. Two same-size in-line wheels, the front one steerable, mounted in a frame upon which you straddled. The device was propelled by pushing your feet against the ground, thus rolling yourself and the device forward in a sort of gliding walk.</p>
+      
+      <p>The machine became known as the Draisienne (or "hobby horse"). It was made entirely of wood. This enjoyed a short lived popularity as a fad, not being practical for transportation in any other place than a well maintained pathway such as in a park or garden.</p>
+      
+      <p>The next appearance of a two-wheeled riding machine was in 1865, when pedals were applied directly to the front wheel. This machine was known as the velocipede (meaning "fast foot") as well as the "bone shaker," since its wooden structure combined with the cobblestone roads of the day made for an extremely uncomfortable ride...</p>
+    </div>
+  </div>
+</div>
+</body>
+</html>
