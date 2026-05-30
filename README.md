@@ -17,28 +17,6 @@
 
 ---
 
-## 📖 Deskripsi Project
-
-Repository ini berisi kumpulan latihan dan implementasi berbagai materi HTML dan CSS yang dipelajari selama perkuliahan Pemrograman Web.
-
-Materi mencakup:
-
-✅ Dasar HTML
-✅ Text Formatting
-✅ Hyperlink
-✅ Lists
-✅ Images
-✅ Tables
-✅ Forms
-✅ Audio & Video HTML5
-✅ CSS Styling
-✅ CSS Layout
-✅ Positioning
-✅ Grid Layout
-✅ Responsive Design Dasar
-
----
-
 ## 🛠️ Teknologi yang Digunakan
 
 | Teknologi | Fungsi               |
