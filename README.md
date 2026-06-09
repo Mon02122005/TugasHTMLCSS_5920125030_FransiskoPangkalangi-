@@ -95,4 +95,4 @@
 
 ---
 
-### © 2025 Fransisko Pangkalangi
+### Fransisko Pangkalangi 2026
